@@ -10,8 +10,12 @@ In this study, we used Python to create a linkage analysis program (16S-MAG-link
 conda create -n linker python=3.8
 conda activate linker
 pip install tqdm xlsxwriter
-conda install blast fastan
+conda install blast fastani
 ```
+
+download RefGenome to the `16S_MAG_linker` folder: https://pan.baidu.com/s/1W5MKrv6gMxgBiZ-cP-EYyA?pwd=hh96, then unzip: `unzip RefGenome.zip -d RefGenome`
+
+
 
 ### Inbuilt database
 
@@ -19,7 +23,7 @@ conda install blast fastan
 - `dataset.json`: RefSeq genome and Relative path linkage
 - `map.json`: Reference 16S and RefSeq genome linkage
 
-- `RefGenome`: RefSeq genome, download from ...
+- `RefGenome`: RefSeq genome
 
 
 
